@@ -29,10 +29,12 @@ if __name__ == "__main__":
     print(x.head(5))
 
 
-    X_train, X_test, y_train, y_test = X_train, X_val, y_train, y_val = train_test_split(x, y, test_size=0.33,random_state=123)
+    X_train, X_test, y_train, y_test = X_train, X_val, y_train, y_val = train_test_split(x, y,test_size=0.33,random_state=123)
     print(X_train.shape,X_val.shape,y_train.shape,y_val.shape)
 
     logreg = LogisticRegression()
+    #class_weight='balanced'
+
     logreg.fit(X_train, y_train)
 
     y_pred = logreg.predict(X_test)
@@ -45,6 +47,6 @@ if __name__ == "__main__":
     y_test  = le.inverse_transform(y_test)
     
     df_report = classification_report(y_test,y_pred)
-    df_report.to_csv("../data/results/classifier_logistic.csv")
+    df_report.to_csv("../data/results/classifier_logistic_report.csv")
 
     

@@ -77,8 +77,13 @@ scikit_learn==0.24.2.
 
 ### Train a model  
 Run following commands 
-
 `cd src`  
+
+#### 1. For logistic regression model
+`python classifier_base.py`
+
+
+#### 2. For Bidirectional LSTM model
 `python SRL_NN_train.py --EMBEDDING_DIM=300 --NUM_HIDDEN_NODES=100 --epochs=50 --batchsize=64 --learning_rate=0.001`
 
 ### Hyperparameters 

@@ -99,7 +99,8 @@ models/srl_hindi_bilstm_50e.pth
 
 ### Results 
 ![alt text](data/results/NN_train_test_accuracy_bilstm_50e.png)
-![alt text](data/results/NN_train_test_loss_bilstm.png)
+![alt text](data/results/NN_train_test_loss_bilstm_50e.png)
+
 
 
 

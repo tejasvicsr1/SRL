@@ -97,7 +97,8 @@ The following table lists optimization/training hyperparameters for the neural L
 Our models are stored at 
 models/srl_hindi_bilstm_50e.pth
 
-### Results 
+### Results
+Final Model - Bidirectional LSTM 
 ![alt text](data/results/NN_train_test_accuracy_bilstm_50e.png)
 ![alt text](data/results/NN_train_test_loss_bilstm_50e.png)
 

@@ -78,6 +78,11 @@ scikit_learn==0.24.2.
 
 
 ### Train a model  
+#### Download dataset
+1.Download the dataset from the link - https://drive.google.com/drive/folders/1JLrZ0HgvuXKZL7PhB5Y89V_4BzIp7ucV?usp=sharing  
+2.Unzip the file and place it in data/processed folder
+
+
 Run following commands   
 `cd src`  
 

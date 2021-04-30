@@ -88,7 +88,7 @@ The following table lists optimization/training hyperparameters for the neural m
 |     Name      |Type          |Description       | Default value |       
 |---------------|----------|------------------------|---|
 | `learning_rate` | float | Initial learning rate.  | 0.001 |
-| `EMBEDDING_DIM` | int | Dimensionality of the word vectors | 100 |
+| `EMBEDDING_DIM` | int | Dimensionality of the word vectors | 300 |
 | `NUM_HIDDEN_NODES` | int | Number of hidden nodes of the neural model | 100 |
 | `epochs` | int | Number of times datasets needs to be iterated for a model | 50 |
 | `batchsize` | int | Size of a batch of training examples sampled from a dataset | 64 |

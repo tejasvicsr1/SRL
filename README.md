@@ -83,7 +83,7 @@ Run following commands
 
 ### Hyperparameters 
 
-The following table lists optimization/training hyperparameters for the neural model
+The following table lists optimization/training hyperparameters for the neural LSTM based SRL model
 
 |     Name      |Type          |Description       | Default value |       
 |---------------|----------|------------------------|---|
@@ -96,4 +96,10 @@ The following table lists optimization/training hyperparameters for the neural m
 ### Model Checkpoints/Trained models  
 Our models are stored at 
 models/srl_hindi_bilstm_50e.pth
+
+### Results 
+![alt text](data/results/NN_train_test_accuracy_bilstm_50e.png)
+![alt text](data/results/NN_train_test_loss_bilstm.png)
+
+
 

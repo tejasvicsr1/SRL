@@ -67,12 +67,12 @@ The following labels have been taken from this [paper](https://verbs.colorado.ed
 ## Code Walkthrough
 
 ### Requirements 
-torch==1.8.1
-numpy==1.19.5
-matplotlib==3.3.4
-seaborn==0.11.1
-pandas==1.1.5
-scikit_learn==0.24.2
+torch==1.8.1. 
+numpy==1.19.5. 
+matplotlib==3.3.4. 
+seaborn==0.11.1. 
+pandas==1.1.5. 
+scikit_learn==0.24.2.  
 
 
 ### Train a model  

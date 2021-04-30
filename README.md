@@ -63,3 +63,37 @@ For Semantic Role Labelling in Hindi, we will be labelling the words into the fo
 | ARGM-CAU   | Cause or Reason        |
 
 The following labels have been taken from this [paper](https://verbs.colorado.edu/hindiurdu/guidelines_docs/PBAnnotationGuidelines.pdf).
+
+## Code Walkthrough
+
+### Requirements 
+torch==1.8.1
+numpy==1.19.5
+matplotlib==3.3.4
+seaborn==0.11.1
+pandas==1.1.5
+scikit_learn==0.24.2
+
+
+### Train a model  
+Run following commands 
+
+`cd src`  
+`python SRL_NN_train.py --EMBEDDING_DIM=300 --NUM_HIDDEN_NODES=100 --epochs=50 --batchsize=64 --learning_rate=0.001`
+
+### Hyperparameters 
+
+The following table lists optimization/training hyperparameters for the neural model
+
+|     Name      |Type          |Description       | Default value |       
+|---------------|----------|------------------------|---|
+| `learning_rate` | float | Initial learning rate.  | 0.001 |
+| `EMBEDDING_DIM` | int | Dimensionality of the word vectors | 100 |
+| `NUM_HIDDEN_NODES` | int | Number of hidden nodes of the neural model | 100 |
+| `epochs` | int | Number of times datasets needs to be iterated for a model | 50 |
+| `batchsize` | int | Size of a batch of training examples sampled from a dataset | 64 |
+
+### Model Checkpoints/Trained models  
+Our models are stored at 
+models/srl_hindi_bilstm_50e.pth
+

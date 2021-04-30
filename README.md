@@ -76,7 +76,7 @@ scikit_learn==0.24.2.
 
 
 ### Train a model  
-Run following commands 
+Run following commands   
 `cd src`  
 
 #### 1. For logistic regression model

@@ -1,6 +1,4 @@
 # Semantic Role Labelling For Hindi
-## Github Repo Link 
-https://github.com/rahcode7/SRL
 
 ## Semantic Role Labelling
 
